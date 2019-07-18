@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DGCollectionViewLeftAlignFlowLayout (1.0.4)
+  - DropDown (2.3.13)
+  - MyScriptInteractiveInk-Runtime (1.3.2)
+  - MyScriptInteractiveInk-UIReferenceImplementation (1.3.2):
+    - MyScriptInteractiveInk-Runtime (= 1.3.2)
+  - TPKeyboardAvoiding (1.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - DGCollectionViewLeftAlignFlowLayout
+  - DropDown
+  - MyScriptInteractiveInk-UIReferenceImplementation (from `../..`)
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DGCollectionViewLeftAlignFlowLayout
+    - DropDown
+    - MyScriptInteractiveInk-Runtime
+    - TPKeyboardAvoiding
+
+EXTERNAL SOURCES:
+  MyScriptInteractiveInk-UIReferenceImplementation:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DGCollectionViewLeftAlignFlowLayout: a0fa58797373ded039cafba8133e79373d048399
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MyScriptInteractiveInk-Runtime: 7f9088accc7eedbedab5071a5d74d1b74bc3648f
+  MyScriptInteractiveInk-UIReferenceImplementation: a32013056a77206d653a49204b5927a6d8d355db
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+
+PODFILE CHECKSUM: 2f5cb0f3f80d34c4ae68572184fce79861f5f60d
+
+COCOAPODS: 1.5.3
