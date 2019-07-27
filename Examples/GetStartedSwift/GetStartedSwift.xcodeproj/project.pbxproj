@@ -42,15 +42,10 @@
 		A236E59F227AC42F0049AAF6 /* LabAndDiaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E59D227AC42E0049AAF6 /* LabAndDiaCollectionViewCell.swift */; };
 		A236E5A0227AC42F0049AAF6 /* LabAndDiaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A236E59E227AC42F0049AAF6 /* LabAndDiaCollectionViewCell.xib */; };
 		A236E5A4227AC6390049AAF6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A236E5A2227AC6380049AAF6 /* MBProgressHUD.m */; };
-		A236E5A6227ACB560049AAF6 /* PrescriptionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E5A5227ACB560049AAF6 /* PrescriptionLayer.swift */; };
 		A236E5A8227ACB7C0049AAF6 /* ConfigDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E5A7227ACB7C0049AAF6 /* ConfigDoctor.swift */; };
-		A236E5AB227ACD0B0049AAF6 /* DoctorRegistrationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E5A9227ACD0B0049AAF6 /* DoctorRegistrationLayer.swift */; };
-		A236E5AC227ACD0B0049AAF6 /* ClinicAndAssistantLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E5AA227ACD0B0049AAF6 /* ClinicAndAssistantLayer.swift */; };
-		A236E5AE227ACD8B0049AAF6 /* DoctorsDetailLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E5AD227ACD8B0049AAF6 /* DoctorsDetailLayer.swift */; };
 		A236E5B0227ACECC0049AAF6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A236E5AF227ACECC0049AAF6 /* Colors.swift */; };
 		A236E5B4227AD8EE0049AAF6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A236E5B2227AD8EE0049AAF6 /* Roboto-Regular.ttf */; };
 		A236E5B5227AD8EE0049AAF6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A236E5B3227AD8EE0049AAF6 /* Roboto-Bold.ttf */; };
-		A2450B9122841E9000B130F5 /* WritingSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2450B9022841E9000B130F5 /* WritingSummaryViewController.swift */; };
 		A2666CED2297EAA2006851AB /* PrescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2666CEB2297EAA2006851AB /* PrescriptionCollectionViewCell.swift */; };
 		A2666CEE2297EAA2006851AB /* PrescriptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2666CEC2297EAA2006851AB /* PrescriptionCollectionViewCell.xib */; };
 		A27E1B1722A15C9700FE4ACB /* MedicinesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27E1B1522A15C9700FE4ACB /* MedicinesCollectionViewCell.swift */; };
@@ -103,15 +98,10 @@
 		A236E59E227AC42F0049AAF6 /* LabAndDiaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabAndDiaCollectionViewCell.xib; sourceTree = "<group>"; };
 		A236E5A2227AC6380049AAF6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		A236E5A3227AC6380049AAF6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		A236E5A5227ACB560049AAF6 /* PrescriptionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionLayer.swift; sourceTree = "<group>"; };
 		A236E5A7227ACB7C0049AAF6 /* ConfigDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigDoctor.swift; sourceTree = "<group>"; };
-		A236E5A9227ACD0B0049AAF6 /* DoctorRegistrationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorRegistrationLayer.swift; sourceTree = "<group>"; };
-		A236E5AA227ACD0B0049AAF6 /* ClinicAndAssistantLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicAndAssistantLayer.swift; sourceTree = "<group>"; };
-		A236E5AD227ACD8B0049AAF6 /* DoctorsDetailLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsDetailLayer.swift; sourceTree = "<group>"; };
 		A236E5AF227ACECC0049AAF6 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A236E5B2227AD8EE0049AAF6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		A236E5B3227AD8EE0049AAF6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		A2450B9022841E9000B130F5 /* WritingSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingSummaryViewController.swift; sourceTree = "<group>"; };
 		A2666CEB2297EAA2006851AB /* PrescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
 		A2666CEC2297EAA2006851AB /* PrescriptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrescriptionCollectionViewCell.xib; sourceTree = "<group>"; };
 		A27E1B1522A15C9700FE4ACB /* MedicinesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -183,11 +173,7 @@
 			children = (
 				A236E5B1227AD8EE0049AAF6 /* CustomFont */,
 				A236E5AF227ACECC0049AAF6 /* Colors.swift */,
-				A236E5AD227ACD8B0049AAF6 /* DoctorsDetailLayer.swift */,
-				A236E5AA227ACD0B0049AAF6 /* ClinicAndAssistantLayer.swift */,
-				A236E5A9227ACD0B0049AAF6 /* DoctorRegistrationLayer.swift */,
 				A236E5A7227ACB7C0049AAF6 /* ConfigDoctor.swift */,
-				A236E5A5227ACB560049AAF6 /* PrescriptionLayer.swift */,
 				A236E5A1227AC6380049AAF6 /* MBProgressHud */,
 				A236E58F227AC2190049AAF6 /* Utils.swift */,
 				A236E58D227AC1580049AAF6 /* Toast.swift */,
@@ -209,7 +195,6 @@
 				A236E59D227AC42E0049AAF6 /* LabAndDiaCollectionViewCell.swift */,
 				A236E59E227AC42F0049AAF6 /* LabAndDiaCollectionViewCell.xib */,
 				A2E0EF7522804F380047E1D0 /* TextDetails.swift */,
-				A2450B9022841E9000B130F5 /* WritingSummaryViewController.swift */,
 				A2E4EF99229FB6C90097E471 /* HeaderCollectionReusableView.swift */,
 				A2E4EF9A229FB6C90097E471 /* HeaderCollectionReusableView.xib */,
 				A2666CEB2297EAA2006851AB /* PrescriptionCollectionViewCell.swift */,
@@ -466,7 +451,6 @@
 				A236E57B227ABCFA0049AAF6 /* KSToken.swift in Sources */,
 				A22AE95C22CF459600435569 /* WritingSummaryNewViewController.swift in Sources */,
 				A236E5B0227ACECC0049AAF6 /* Colors.swift in Sources */,
-				A2450B9122841E9000B130F5 /* WritingSummaryViewController.swift in Sources */,
 				A22AE95F22CF45CA00435569 /* WritingSummaryNewTableViewCell.swift in Sources */,
 				A236E58C227ABFAB0049AAF6 /* MKColor.swift in Sources */,
 				A282FC76227AB0E40060C155 /* MyCertificate.c in Sources */,
@@ -476,15 +460,11 @@
 				A27E1B1722A15C9700FE4ACB /* MedicinesCollectionViewCell.swift in Sources */,
 				A2E4EF9B229FB6C90097E471 /* HeaderCollectionReusableView.swift in Sources */,
 				A236E59C227AC41B0049AAF6 /* DiseasesCollectionViewCell.swift in Sources */,
-				A236E5AC227ACD0B0049AAF6 /* ClinicAndAssistantLayer.swift in Sources */,
-				A236E5AB227ACD0B0049AAF6 /* DoctorRegistrationLayer.swift in Sources */,
 				A236E57E227ABCFA0049AAF6 /* List.swift in Sources */,
 				A236E5A8227ACB7C0049AAF6 /* ConfigDoctor.swift in Sources */,
 				A236E57F227ABCFA0049AAF6 /* KSTokenView.swift in Sources */,
-				A236E5A6227ACB560049AAF6 /* PrescriptionLayer.swift in Sources */,
 				A236E58A227ABFAB0049AAF6 /* MKTextField.swift in Sources */,
 				A236E594227AC3140049AAF6 /* SwipeTableViewCell.swift in Sources */,
-				A236E5AE227ACD8B0049AAF6 /* DoctorsDetailLayer.swift in Sources */,
 				A236E581227ABDE40049AAF6 /* Themes.swift in Sources */,
 				A236E572227ABC4B0049AAF6 /* TagView.swift in Sources */,
 				A2E0EF7622804F380047E1D0 /* TextDetails.swift in Sources */,
@@ -626,7 +606,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KV9LK7KD3;
 				INFOPLIST_FILE = "$(SRCROOT)/GetStartedSwift/Supporting Files/GetStartedSwift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myscript.iink.GetStartedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -646,7 +626,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KV9LK7KD3;
 				INFOPLIST_FILE = "$(SRCROOT)/GetStartedSwift/Supporting Files/GetStartedSwift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myscript.iink.GetStartedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";

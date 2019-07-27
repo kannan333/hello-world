@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WritingSummaryNewViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,IINKEditorDelegate,BibleReadingSliderProtocol {
+class WritingSummaryNewViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,IINKEditorDelegate,BibleReadingSliderProtocol,UIScrollViewDelegate {
     
     func partChanged(_ editor: IINKEditor) {
         
@@ -80,9 +80,25 @@ class WritingSummaryNewViewController: UIViewController,UITableViewDelegate,UITa
         view.addSubview(content.view)
         content.didMove(toParentViewController: self)
     }
-    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
+    }
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40
+    }
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UITableViewHeaderFooterView()
+        headerView.textLabel?.textColor  = UIColor.red
+        if section == 0{
+            headerView.textLabel?.text = "HEADING 1"
+        }
+        else{
+            headerView.textLabel?.text = "HEADING 2"
+        }
+        return headerView
     }
     
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -91,7 +107,9 @@ class WritingSummaryNewViewController: UIViewController,UITableViewDelegate,UITa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         print("Rows---------------------\(indexPath.row)")
-        var cell: WritingSummaryNewTableViewCell? = (tableView.dequeueReusableCell(withIdentifier: "WritingSummaryNewTableViewCell") as? WritingSummaryNewTableViewCell)
+         var cell: WritingSummaryNewTableViewCell? = (tableView.dequeueReusableCell(withIdentifier: "WritingSummaryNewTableViewCell") as? WritingSummaryNewTableViewCell)
+        if indexPath.row == 0{
+       
         // var nib: [Any] = Bundle.main.loadNibNamed("WritingSummaryNewTableViewCell", owner: self, options: nil)!
         // cell = nib[0]  as? WritingSummaryNewTableViewCell
       
@@ -108,12 +126,33 @@ class WritingSummaryNewViewController: UIViewController,UITableViewDelegate,UITa
         cell?.editorVC.view.frame = CGRect(x: 0, y: 0, width: cell!.frame.width, height: 300)
         cell?.editorVC.view.isUserInteractionEnabled = true
         cell?.editorVC.displayViewController.view.isUserInteractionEnabled = true
+        }
+        else{
+            
+        }
         return cell!
     }
     
     func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row == 0{
         if (cell is EditorViewController) {
             ((cell as? WritingSummaryNewTableViewCell)?.editorVC)?.removeFromParentViewController()
+        }
+        }
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print("Scrolling Called---------")
+        summary_TblView.isScrollEnabled  = false
+        if scrollView == summary_TblView as UIScrollView{
+            print("Tableview scrollview-----------------")
+        }
+        else{
+             print("Tableview scrollview not-----------------")
+        }
+        if scrollView.contentOffset.y > 0 {
+            // you scrolled down
+            scrollView.contentOffset.y = 0
         }
     }
     /*
